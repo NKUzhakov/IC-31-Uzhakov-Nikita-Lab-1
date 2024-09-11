@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Піцерія</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/3748/3748309.png">
+</head>
+<style>
+    table, th, td{
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+    
+    th, td{
+        padding: 15px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Київська піцерія</h1>    
+        <img src="https://img.restoclub.ru/uploads/article/8/9/2/d/892d80072676f750d3ec0839ccec8bbf_w828_h552--big.jpg" 
+        alt="Головна зала піцерії" style="width: 828px;height: 552px;">
+    </header>
+    <main>
+        <h3>Головна інформація</h3>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>Адреса розташування</th>
+            <td>місто Київ, вул.Борщагівська 140А</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Режим роботи</th>
+            <td>понеділок-п'ятниця з 8.00 до 22.00</td>
+        </tr>
+        <tr>            
+            <td>по вихідним з 10.00 до 20.00</td>
+        </tr>
+        <tr>
+            <th>Телефон адміністратора</th>
+            <td>068-254-15-45</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>У нас є такий асртимент піц:</h3>
+    <ol>
+        <li>Класичні піци:
+            <ul style="list-style-type: circle;">
+                <li>Маргарита</li>
+                <li>Пепероні</li>
+                <li>Капрічоза</li>
+                <li>Діабола</li>
+            </ul>
+        </li>
+        <li>М'ясні піци</li>
+        <li>Піци з морепродуктами:
+            <ul style="list-style-type: circle;">
+                <li>Фрутті ді маре</li>
+                <li>Тунець з цибулею</li>
+            </ul>
+        </li>
+        <li>Регіональні піци:
+            <ul style="list-style-type: circle;">
+                <li>Неаполітанська піца</li>
+                <li>Сицилійська піца</li>
+                <li>Чиказька піца</li>
+            </ul>
+        </li>        
+    </ol>
+
+    <form >
+        <fieldset>
+            <legend>Задати питання можна тут</legend>
+            Ваше прізвище та ім'я:<br>
+            <input type="text" name="userSurnameAndName" placeholder="Прізвище Ім'я" required> <br>
+            Ваша електронна пошта:<br>
+            <input type="email"name="userEmail" placeholder="email"required> <br>
+            Ваше питання:<br>
+            <textarea name="userQuestion" rows="5" cols="50" placeholder="Текст питання"required></textarea> <br>            
+            <input type="submit" value="Надіслати">
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+        <h5>Додаткова інформація знаходиться тут:</h5>
+        <a href="description.html" target="_blank">Опис предметної галузі</a>
+    </footer>
+    
+</body>
+</html>
